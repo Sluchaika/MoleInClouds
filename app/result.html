@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты</title>
+</head>
+<body>
+<table  ng-controller="resultsCtrl">
+    <tr ng-repeat="x in names" >
+        <td>{{ x.Name }}</td>
+        <td>{{ x.Result }}</td>
+    </tr>
+</table>
+</body>
+</html>
